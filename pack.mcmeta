@@ -1,7 +1,7 @@
 {
   "pack": {
-    "description": "Fast Brew - 1 second potion brewing",
+    "description": "§6Fast Brew\n§eBrew potions fast!",
     "min_format": [121, 0],
-    "max_format": [121, 0]
+    "max_format": [999, 0]
   }
 }
