@@ -1,9 +1,11 @@
 # Fast Brew
 
-Requires Minecraft 26.3 and newer.
+Requires Minecraft 26.3 or newer.
 
 Makes brewing fast (1 second per batch by default) and lets players change the
 brewing time in game with a simple `/trigger` command.
+
+⚠️The game may cache the speed when a brewing batch starts, so you may need to break and replace your brewing stand for the change to take effect.
 
 ## Changing the brewing time
 
@@ -25,14 +27,11 @@ Other commands:
 
 ## Notes
 
-- Only the **duration** changes. Blaze powder is consumed at the normal rate
+- Only the **brewing time** changes. Blaze powder is consumed at the normal rate
   (20 batches per piece), and all vanilla brewing recipes are unchanged.
 - This affects every fuel that references `minecraft:brewing/speed_default`,
   including custom fuel items that use the default provider.
-- The game may cache the speed when a brewing batch starts, so a change may only
-  apply to the **next** brewing batch rather than one already brewing.
 - Duration `0` or negative values are ignored (the trigger detector only
-  accepts positive scores), which also avoids dividing by zero.
+  accepts positive values), which also avoids dividing by zero.
 - Upgrading from an older version of this pack: any previously saved custom
   `speed` value is replaced by the default 20-tick duration on `/reload`.
-- Requires Minecraft Java 26.3 or newer (data pack format 121.0).
