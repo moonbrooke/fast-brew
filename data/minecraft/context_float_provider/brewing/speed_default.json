@@ -1,1 +1,10 @@
-20.0
+{
+  "type": "minecraft:div",
+  "left": 400.0,
+  "right": {
+    "type": "minecraft:storage",
+    "storage": "fastbrew:config",
+    "path": "duration",
+    "fallback": 20.0
+  }
+}
