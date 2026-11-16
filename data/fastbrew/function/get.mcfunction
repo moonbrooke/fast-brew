@@ -1,2 +1,2 @@
-# Show the current brewing speed multiplier.
-data get storage fastbrew:config speed
+# Show the current brewing duration in ticks.
+data get storage fastbrew:config duration

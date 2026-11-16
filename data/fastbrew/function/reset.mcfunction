@@ -1,2 +1,2 @@
-# Reset the brewing speed to the pack default (1 second per batch).
-data modify storage fastbrew:config speed set value 20.0f
+# Reset the brewing duration to the pack default (20 ticks = 1 second).
+data modify storage fastbrew:config duration set value 20.0f
