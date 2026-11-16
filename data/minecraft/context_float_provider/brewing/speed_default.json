@@ -1,1 +1,6 @@
-20.0
+{
+  "type": "minecraft:storage",
+  "storage": "fastbrew:config",
+  "path": "speed",
+  "fallback": 20.0
+}
