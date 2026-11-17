@@ -5,7 +5,7 @@ Requires Minecraft 26.3 or newer.
 Makes brewing fast (1 second per batch by default) and lets players change the
 brewing time in game with a simple `/trigger` command.
 
-⚠️If you change the brewing speed after a brewing batch has already started (blaze powder consumed and active), you will need to break and replace your brewing stand for the change to take effect.
+⚠️ If you change the brewing speed after a brewing batch has already started (blaze powder consumed and active), you will need to break and replace your brewing stand for the change to take effect.
 
 ## Changing the brewing time
 
@@ -35,3 +35,13 @@ Other commands:
   accepts positive values), which also avoids dividing by zero.
 - Upgrading from an older version of this pack: any previously saved custom
   `speed` value is replaced by the default 20-tick duration on `/reload`.
+- You only need to **download one**. Choose either the **datapack** or the **mod** version, whichever is more convenient for you.
+- **Fabric/Forge/NeoForge** mods all in one JAR file. If you use **Fabric Loader**, the mod also requires [Fabric API](https://modrinth.com/mod/fabric-api).
+- And feel free to use it in your modpack.
+
+## Download
+
+- [Release page](https://github.com/moonbrooke/fast-brew/releases/latest)
+- [Modrinth](https://modrinth.com/datapack/fast-brew)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fast-brew) (Mod)
+- [CurseForge](https://www.curseforge.com/minecraft/data-packs/fast-brew) (Data Pack)
