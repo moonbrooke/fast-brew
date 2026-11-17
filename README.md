@@ -35,7 +35,7 @@ Other commands:
   accepts positive values), which also avoids dividing by zero.
 - Upgrading from an older version of this pack: any previously saved custom
   `speed` value is replaced by the default 20-tick duration on `/reload`.
-- You only need to **download one**. Choose either the **datapack** or the **mod** version, whichever is more convenient for you.
+- You only need to **download one**. Choose either the **datapack** (.zip) or the **mod** (.jar) version, whichever is more convenient for you.
 - **Fabric/Forge/NeoForge** mods all in one JAR file. If you use **Fabric Loader**, the mod also requires [Fabric API](https://modrinth.com/mod/fabric-api).
 - And feel free to use it in your modpack.
 
