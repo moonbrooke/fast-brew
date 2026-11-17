@@ -11,7 +11,7 @@ brewing time in game with a simple `/trigger` command.
 
 The speed number in **ticks**. Larger = slower.
 
-```
+```bash
 /trigger fastbrew.speed set 20     # 20 ticks  = 1 second (default)
 /trigger fastbrew.speed set 100    # 100 ticks = 5 seconds
 /trigger fastbrew.speed set 200    # 200 ticks = 10 seconds
@@ -20,7 +20,7 @@ The speed number in **ticks**. Larger = slower.
 
 Other commands:
 
-```
+```bash
 /function fastbrew:get             # show the current duration in ticks
 /function fastbrew:reset           # back to 20 ticks (1 second)
 ```
